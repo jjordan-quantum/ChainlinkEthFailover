@@ -11,6 +11,8 @@
     "websocket": "^1.0.28"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "script:startFailover": "node index.js",
+    "script:startSampleApp": "node sample-app/app.js"
   }
 }
